@@ -27,7 +27,8 @@
                 <OnPlatform x:TypeArguments="ImageSource" iOS="ic_home_white_48dp.png" Android="ic_home_white_48dp.png" />
             </Image.Source>
         </Image>
-        
+        <Label Text="Daan stinkt"/>
+
     </StackLayout>
     
 
