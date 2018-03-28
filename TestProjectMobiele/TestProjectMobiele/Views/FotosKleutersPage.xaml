@@ -12,7 +12,7 @@
             <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Margin="5">
                 <Image Margin="5">
                     <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48dp.png" Android="ic_person_black_48dp.png" />
+                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48pt.png" Android="ic_person_black_48dp.png" />
                     </Image.Source>
                 </Image>
                 <Label Text="Kleuter A" FontSize="Medium" TextColor="SteelBlue" Margin="5"/>
@@ -20,7 +20,7 @@
             <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Margin="5">
                 <Image Margin="5">
                     <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48dp.png" Android="ic_person_black_48dp.png" />
+                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48pt.png" Android="ic_person_black_48dp.png" />
                     </Image.Source>
                 </Image>
                 <Label Text="Kleuter B" FontSize="Medium" TextColor="SteelBlue" Margin="5"/>
@@ -28,7 +28,7 @@
             <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Margin="5">
                 <Image Margin="5">
                     <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48dp.png" Android="ic_person_black_48dp.png" />
+                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48pt.png" Android="ic_person_black_48dp.png" />
                     </Image.Source>
                 </Image>
                 <Label Text="Kleuter C" FontSize="Medium" TextColor="SteelBlue" Margin="5"/>
@@ -38,7 +38,7 @@
             <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Margin="5">
                 <Image Margin="5">
                     <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48dp.png" Android="ic_person_black_48dp.png" />
+                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48pt.png" Android="ic_person_black_48dp.png" />
                     </Image.Source>
                 </Image>
                 <Label Text="Kleuter D" FontSize="Medium" TextColor="SteelBlue" Margin="5"/>
@@ -46,7 +46,7 @@
             <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Margin="5">
                 <Image Margin="5">
                     <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48dp.png" Android="ic_person_black_48dp.png" />
+                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48pt.png" Android="ic_person_black_48dp.png" />
                     </Image.Source>
                 </Image>
                 <Label Text="Kleuter E" FontSize="Medium" TextColor="SteelBlue" Margin="5"/>
@@ -54,7 +54,7 @@
             <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Margin="5">
                 <Image Margin="5">
                     <Image.Source>
-                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48dp.png" Android="ic_person_black_48dp.png" />
+                        <OnPlatform x:TypeArguments="ImageSource" iOS="ic_person_black_48pt.png" Android="ic_person_black_48dp.png" />
                     </Image.Source>
                 </Image>
                 <Label Text="Kleuter F" FontSize="Medium" TextColor="SteelBlue" Margin="5"/>

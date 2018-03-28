@@ -16,11 +16,12 @@ namespace TestProjectMobiele.ViewModels
         {
             LoginKnopGedrukt = new DelegateCommand(() =>
             {
-                if (TekstVak == "ouder")
+                
+                if (TekstVak.ToUpper() == "OUDER")
                 {
                     NavigationService.NavigateAsync("OudersMainPage");
                 }
-                else if (TekstVak == "leraar")
+                else if (TekstVak.ToUpper() == "LERAAR")
                 {
                     NavigationService.NavigateAsync("FotosKleutersPage");
                 }
