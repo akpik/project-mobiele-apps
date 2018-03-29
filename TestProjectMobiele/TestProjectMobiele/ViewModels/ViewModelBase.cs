@@ -40,7 +40,7 @@ namespace TestProjectMobiele.ViewModels
 
         public virtual void Destroy()
         {
-            //werk eens mee
+           
         }
         
     }
