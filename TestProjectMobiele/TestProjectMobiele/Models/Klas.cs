@@ -4,9 +4,8 @@ using System.Text;
 
 namespace TestProjectMobiele.Models
 {
-    //Made by Daan Vandebosch
-    public class Kleuter
+    public class Klas
     {
-        public string Naam;
+        public string Klascode { get; set; }
     }
 }

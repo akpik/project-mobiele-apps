@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestProjectMobiele.Models
+namespace TestProjectMobiele.Contracts
 {
-    //Made by Daan Vandebosch
-    class Leraar
+    public interface ISpecificData
     {
     }
 }

@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestProjectMobiele.Models
+namespace TestProjectMobiele
 {
-    //Made by Daan Vandebosch
-    class Leraar
+    class AllDataRepository
     {
     }
 }
