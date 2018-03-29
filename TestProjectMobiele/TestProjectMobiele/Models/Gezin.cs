@@ -5,7 +5,7 @@ using System.Text;
 namespace TestProjectMobiele.Models
 {
     //Made by Daan Vandebosch
-    class Gezin
+    public class Gezin
     {
     }
 }

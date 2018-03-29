@@ -4,8 +4,7 @@ using System.Text;
 
 namespace TestProjectMobiele.Models
 {
-    public class Klas
+    public class Hoek
     {
-        public string Klascode { get; set; }
     }
 }

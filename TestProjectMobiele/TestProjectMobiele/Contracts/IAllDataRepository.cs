@@ -10,7 +10,14 @@ namespace TestProjectMobiele.Contracts
     {
         Task<List<Kleuter>> GetKleutersAsync(string klascode);
 
+        Task<Gezin> GetGezinAsync(string GezinsCode);
 
+        Task<Klas> GetKlasAsync(string KlasCode);
+
+        Task<List<Hoek>> GetHoekenAsync(int KlasId);
+
+
+      
         
     }
 }
