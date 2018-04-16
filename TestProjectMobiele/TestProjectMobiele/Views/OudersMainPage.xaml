@@ -11,7 +11,7 @@
         <Image Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-            Command="{}"/>
+            Command="{Binding ImageChildClicked}"/>
             </Image.GestureRecognizers>
 
             <Image.Source>
@@ -22,7 +22,7 @@
         <Image Margin="50">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
-            Command="{}"/>
+            Command="{Binding ImageCameraClicked}"/>
             </Image.GestureRecognizers>
 
             <Image.Source>

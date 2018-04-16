@@ -34,6 +34,7 @@ namespace TestProjectMobiele
             containerRegistry.RegisterForNavigation<LogInPage>();
             containerRegistry.RegisterForNavigation<FotosKleutersPage>();
             containerRegistry.RegisterForNavigation<OudersMainPage>();
+            containerRegistry.RegisterForNavigation<TimelinePage>();
         }
     }
 }
