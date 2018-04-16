@@ -13,7 +13,7 @@
             </Image.GestureRecognizers>
 
             <Image.Source>
-                <OnPlatform x:TypeArguments="ImageSource" iOS="ic_school_white_48pt.png" Android="ic_school_white_48dp.png" />
+                <OnPlatform x:TypeArguments="ImageSource" WinPhone="Images/SchoolWhite.png" iOS="ic_school_white_48pt.png" Android="ic_school_white_48dp.png" />
             </Image.Source>
         </Image>
 
@@ -24,7 +24,7 @@
             </Image.GestureRecognizers>
 
             <Image.Source>
-                <OnPlatform x:TypeArguments="ImageSource" iOS="ic_home_white_48pt.png" Android="ic_home_white_48dp.png" />
+                <OnPlatform x:TypeArguments="ImageSource" WinPhone="Images/HomeWhite.png" iOS="ic_home_white_48pt.png" Android="ic_home_white_48dp.png" />
             </Image.Source>
         </Image>
     </StackLayout>
