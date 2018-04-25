@@ -20,7 +20,7 @@ namespace TestProjectMobiele.Droid
           : base(handle, transer)
         {
         }
-
+        Activity Activity { get; set; }
         public override void OnCreate()
         {
             base.OnCreate();
