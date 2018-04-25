@@ -34,31 +34,31 @@ namespace TestProjectMobiele
             AllData = new AllDataRepository();
         }
 
-        private void LoadFotos()
+        public void LoadFotos()
         {
 
         }
-        private void LoadGezinnen()
+        public void LoadGezinnen()
         {
 
         }
-        private void LoadHoeken()
+        public void LoadHoeken()
         {
 
         }
-        private void LoadKlassen()
+        public void LoadKlassen()
         {
 
         }
-        private void LoadKleuters()
+        public void LoadKleuters()
         {
 
         }
-        private void LoadLeerkrachten()
+        public void LoadLeerkrachten()
         {
 
         }
-        private void LoadScholen()
+        public void LoadScholen()
         {
 
         }

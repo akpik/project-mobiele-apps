@@ -31,6 +31,8 @@ namespace TestProjectMobiele.ViewModels
              });
 
         }
+        //Camera+firebase test
+
         
 
     }
