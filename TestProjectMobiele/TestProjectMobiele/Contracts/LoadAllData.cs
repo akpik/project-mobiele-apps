@@ -36,11 +36,16 @@ namespace TestProjectMobiele
 
         public void LoadFotos()
         {
-
+            
         }
         public void LoadGezinnen()
         {
-
+            Gezin item = new Gezin
+            {
+                GezinsCode = "Awesome item",
+                Email = "blabla"
+            };
+            App.MobileService.GetSyncTable("tblGezin");
         }
         public void LoadHoeken()
         {

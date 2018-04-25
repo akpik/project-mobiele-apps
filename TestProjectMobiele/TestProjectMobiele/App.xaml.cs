@@ -5,6 +5,7 @@ using TestProjectMobiele.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Prism.Unity;
+using Microsoft.WindowsAzure.MobileServices;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace TestProjectMobiele
