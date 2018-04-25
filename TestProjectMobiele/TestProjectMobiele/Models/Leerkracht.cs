@@ -4,11 +4,11 @@ using System.Text;
 
 namespace TestProjectMobiele
 {
-    public class Hoek
+    public class Leerkracht
     {
-        public int HoekID { get; set; }
-        public string Naam { get; set; }
-        public string FotoPad { get; set; }
+        public string LeerkrachtCode { get; set; }
+        public string Voornaam { get; set; }
+        public string Achternaam { get; set; }
         public int SchoolID { get; set; }
         public int KlasID { get; set; }
     }

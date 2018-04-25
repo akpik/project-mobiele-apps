@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestProjectMobiele.Models
+namespace TestProjectMobiele
 {
-    //Made by Daan Vandebosch
     public class Gezin
     {
+        public int GezinsID { get; set; }
+        public string GezinsCode { get; set; }
+        public string Email { get; set; }
     }
 }

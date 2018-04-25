@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TestProjectMobiele.Models
+namespace TestProjectMobiele
 {
     public class Klas
     {
-        public string Klascode { get; set; }
+        public int KlasID { get; set; }
+        public string KlasCode { get; set; }
+        public string KlasNaam { get; set; }
     }
 }

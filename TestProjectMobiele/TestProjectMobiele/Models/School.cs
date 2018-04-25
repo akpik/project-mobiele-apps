@@ -4,7 +4,9 @@ using System.Text;
 
 namespace TestProjectMobiele
 {
-    class AllDataRepository
+    public class School
     {
+        public int SchoolID { get; set; }
+        public string SchoolNaam { get; set; }
     }
 }
