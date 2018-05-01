@@ -27,7 +27,6 @@ namespace TestProjectMobiele.UWP
 
             LoadApplication(new TestProjectMobiele.App(new UwpInitializer()));
             LoadAllData load = new LoadAllData(new DataConnection("Data Source=daanvandebosch.database.windows.net;Initial Catalog=MobieleApps;User ID=r0664592;Password=Bobeke007"));
-            load.LoadGezinnen();
         }
     }
 

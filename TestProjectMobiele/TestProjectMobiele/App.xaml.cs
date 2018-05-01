@@ -36,7 +36,7 @@ namespace TestProjectMobiele
             containerRegistry.RegisterForNavigation<FotosKleutersPage>();
             containerRegistry.RegisterForNavigation<OudersMainPage>();
             containerRegistry.RegisterForNavigation<TimelinePage>();
-            containerRegistry.RegisterInstance<DataConnection>(new DataConnection("Data Source=daanvandebosch.database.windows.net;Initial Catalog=MobieleApps;User ID=r0664592;Password=Bobeke007"));
+            containerRegistry.RegisterInstance<IDataConnection>(new DataConnection("Data Source=daanvandebosch.database.windows.net;Initial Catalog=MobieleApps;User ID=r0664592;Password=Bobeke007"));
 
         }
     }

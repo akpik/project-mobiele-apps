@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectMobiele", "TestProjectMobiele\TestProjectMobiele\TestProjectMobiele.csproj", "{249DC728-38C4-4FA1-A9FB-17D6B99F4503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProjectMobiele", "TestProjectMobiele\TestProjectMobiele\TestProjectMobiele.csproj", "{249DC728-38C4-4FA1-A9FB-17D6B99F4503}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectMobiele.Android", "TestProjectMobiele\TestProjectMobiele.Android\TestProjectMobiele.Android.csproj", "{3F1C80FE-9507-4CE6-A507-A78AD7E9C741}"
 EndProject
@@ -228,6 +228,8 @@ Global
 		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.AppStore|x86.Build.0 = Release|x86
 		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.AppStore|x86.Deploy.0 = Release|x86
 		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.Debug|Any CPU.Build.0 = Debug|x86
+		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.Debug|ARM.ActiveCfg = Debug|ARM
 		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.Debug|ARM.Build.0 = Debug|ARM
 		{FD40AB08-E23E-438F-ACD7-B5F0348B0BC4}.Debug|ARM.Deploy.0 = Debug|ARM

@@ -12,68 +12,44 @@ namespace TestProjectMobiele
     {
         private IDataConnection dbContext;
 
-        public AllDataRepository AllData;
-
         public LoadAllData(IDataConnection dbContext)
         {
-            this.dbContext = dbContext;
-            if (AllData == null)
-            {
-                AllData = new AllDataRepository();
-            }
-            LoadFotos();
-            LoadGezinnen();
-            LoadHoeken();
-            LoadKlassen();
-            LoadKleuters();
-            LoadLeerkrachten();
-            LoadScholen();
+            this.dbContext = dbContext; 
         }
 
-        public AllDataRepository GetAllData()
+        public async Task<List<Foto>> LoadFotos()
         {
-            return AllData;
+            return await dbContext.Fotos.ToListAsync();
         }
 
-        public void ResetAllData()
+        public async Task<List<Gezin>> LoadGezinnen()
         {
-            AllData = null;
-            AllData = new AllDataRepository();
+            return await dbContext.Gezinnen.ToListAsync();
         }
 
-        public void LoadFotos()
+        public async Task<List<Hoek>> LoadHoeken()
         {
-            
+            return await dbContext.Hoekken.ToListAsync();
         }
-        public async Task<int> LoadGezinnen()
-        {
-            Gezin item = new Gezin
-            {
-                GezinsCode = "Awesome item",
-                Email = "blabla"
-            };
-            await dbContext.Gezinnen.AddAsync(item);
-            return await dbContext.SaveChangesAsync();
-        }
-        public void LoadHoeken()
-        {
 
-        }
-        public void LoadKlassen()
+        public async Task<List<Klas>> LoadKlassen()
         {
-
+            return await dbContext.Klassen.ToListAsync();
         }
-        public void LoadKleuters()
-        {
 
+        public async Task<List<Kleuter>> LoadKleuters()
+        {
+            return await dbContext.Kleuters.ToListAsync();
         }
-        public void LoadLeerkrachten()
-        {
 
+        public async Task<List<Leerkracht>> LoadLeerkrachten()
+        {
+            return await dbContext.Leerkrachten.ToListAsync();
         }
-        public void LoadScholen()
-        {
 
+        public async Task<List<School>> LoadScholen()
+        {
+            return await dbContext.Scholen.ToListAsync();
         }
     }
 }
