@@ -24,6 +24,8 @@ namespace TestProjectMobiele.UWP
             this.InitializeComponent();
 
             LoadApplication(new TestProjectMobiele.App(new UwpInitializer()));
+            LoadAllData load = new LoadAllData();
+            load.LoadGezinnen();
         }
     }
 

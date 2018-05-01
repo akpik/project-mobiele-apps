@@ -5,7 +5,7 @@ using System.Data;
 
 namespace TestProjectMobiele
 {
-    class LoadAllData
+    public class LoadAllData
     {
         public AllDataRepository AllData;
         public LoadAllData()

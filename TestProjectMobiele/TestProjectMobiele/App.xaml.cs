@@ -6,6 +6,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Prism.Unity;
 using Microsoft.WindowsAzure.MobileServices;
+using TestProjectMobieles.Data;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace TestProjectMobiele
@@ -19,7 +20,6 @@ namespace TestProjectMobiele
          */
         public App() : this(null) { }
         public static MobileServiceClient MobileService = new MobileServiceClient("https://kinderapp.azurewebsites.net");
-
 
         public App(IPlatformInitializer initializer) : base(initializer) { }
 
@@ -38,6 +38,8 @@ namespace TestProjectMobiele
             containerRegistry.RegisterForNavigation<FotosKleutersPage>();
             containerRegistry.RegisterForNavigation<OudersMainPage>();
             containerRegistry.RegisterForNavigation<TimelinePage>();
+            containerRegistry.RegisterInstance<DataConnection>(new DataConnection("Data Source=daanvandebosch.database.windows.net;Initial Catalog=MobieleApps;User ID=r0664592;Password=Bobeke007"));
+
         }
     }
 }
