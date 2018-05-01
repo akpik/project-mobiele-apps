@@ -6,7 +6,9 @@ namespace TestProjectMobiele
 {
     public class SpecificData
     {
-        LoadAllData loadData = new LoadAllData();
+        //LoadAllData loadData = new LoadAllData();
+        LoadAllData loadData = null;
+
         AllDataRepository allData;
 
         public SpecificData()

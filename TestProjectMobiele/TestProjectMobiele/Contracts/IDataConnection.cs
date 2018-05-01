@@ -1,13 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace TestProjectMobiele.Repositories
+namespace TestProjectMobiele
 {
-    interface IDataConnection
+    public interface IDataConnection
     {
         DbSet<Foto> Fotos { get; set; }
         DbSet<Gezin> Gezinnen { get; set; }

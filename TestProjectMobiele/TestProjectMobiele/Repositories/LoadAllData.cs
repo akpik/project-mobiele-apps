@@ -2,14 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Data;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace TestProjectMobiele
 {
     public class LoadAllData
     {
+        private IDataConnection dbContext;
+
         public AllDataRepository AllData;
-        public LoadAllData()
+
+        public LoadAllData(IDataConnection dbContext)
         {
+            this.dbContext = dbContext;
             if (AllData == null)
             {
                 AllData = new AllDataRepository();
@@ -38,14 +45,15 @@ namespace TestProjectMobiele
         {
             
         }
-        public void LoadGezinnen()
+        public async Task<int> LoadGezinnen()
         {
             Gezin item = new Gezin
             {
                 GezinsCode = "Awesome item",
                 Email = "blabla"
             };
-            App.MobileService.GetSyncTable("tblGezin");
+            await dbContext.Gezinnen.AddAsync(item);
+            return await dbContext.SaveChangesAsync();
         }
         public void LoadHoeken()
         {

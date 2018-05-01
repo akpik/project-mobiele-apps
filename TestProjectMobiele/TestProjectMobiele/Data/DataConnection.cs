@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using TestProjectMobiele;
-using TestProjectMobiele.Repositories;
 
 namespace TestProjectMobieles.Data
 {
@@ -22,6 +18,7 @@ namespace TestProjectMobieles.Data
         public DataConnection(string connectionString)
         {
             this.connectionString = connectionString;
+
             Database.EnsureCreated();
         }
 

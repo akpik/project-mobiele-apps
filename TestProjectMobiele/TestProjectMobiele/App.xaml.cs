@@ -5,7 +5,6 @@ using TestProjectMobiele.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Prism.Unity;
-using Microsoft.WindowsAzure.MobileServices;
 using TestProjectMobieles.Data;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -19,7 +18,6 @@ namespace TestProjectMobiele
          * App(IPlatformInitializer initializer = null) cannot be handled by the Activator.
          */
         public App() : this(null) { }
-        public static MobileServiceClient MobileService = new MobileServiceClient("https://kinderapp.azurewebsites.net");
 
         public App(IPlatformInitializer initializer) : base(initializer) { }
 
