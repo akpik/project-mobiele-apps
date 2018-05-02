@@ -37,7 +37,6 @@ namespace TestProjectMobiele
             containerRegistry.RegisterForNavigation<OudersMainPage>();
             containerRegistry.RegisterForNavigation<TimelinePage>();
             containerRegistry.RegisterInstance<IDataConnection>(new DataConnection("Data Source=daanvandebosch.database.windows.net;Initial Catalog=MobieleApps;User ID=r0664592;Password=Bobeke007"));
-
         }
     }
 }
